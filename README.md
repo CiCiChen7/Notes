@@ -1,7 +1,7 @@
 ## **Paper Notes**
 
-- [optical flow](./optical flow)
-- [semantic segmentation](./semantic segmentation)
+- [optical flow](https://github.com/CuijingChen/Paper_Notes/tree/master/optical%20flow)
+- [semantic segmentation](https://github.com/CuijingChen/Paper_Notes/tree/master/semantic%20segmentation)
 - [VOS / VOT](./VOS&VOT)
 - [other]() 
 
@@ -9,7 +9,7 @@
 
 ## **Common Network Components**
 
-- [GRU](https://github.com/hassony2/inria/wiki/detection-papers)
+- [ConvGRU](https://github.com/hassony2/inria/wiki/detection-papers)
 - [FCN](https://github.com/hassony2/inria/wiki/detection-papers)
 
 
