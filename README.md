@@ -1,7 +1,7 @@
 ## **Paper Notes**
 
-- [optical flow](./optical\ flow)
-- [semantic segmentation](./semantic\ segmentation)
+- [optical flow](./optical flow)
+- [semantic segmentation](./semantic segmentation)
 - [VOS / VOT](./VOS&VOT)
 - [other]() 
 
