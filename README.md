@@ -1,7 +1,7 @@
 ## **Paper Notes**
 
-- [optical flow](https://github.com/CuijingChen/Paper_Notes/tree/master/optical%20flow)
-- [semantic segmentation](https://github.com/CuijingChen/Paper_Notes/tree/master/semantic%20segmentation)
+- [optical flow](https://github.com/CuijingChen/Paper_Notes/tree/master/Paper%20Notes/optical%20flow)
+- [semantic segmentation](https://github.com/CuijingChen/Paper_Notes/tree/master/Paper%20Notes/semantic%20segmentation)
 - [VOS / VOT](./VOS&VOT)
 - [other]() 
 
