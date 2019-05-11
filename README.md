@@ -1,4 +1,4 @@
-##### **Paper Notes**
+## **Paper Notes**
 
 - [object detection](https://github.com/hassony2/inria/wiki/detection-papers)
 - [optical flow](https://github.com/hassony2/inria/wiki/optical-flow-papers)
@@ -12,20 +12,20 @@
 
 
 
-##### **Common Network Components**
+## **Common Network Components**
 
 - [GRU](https://github.com/hassony2/inria/wiki/detection-papers)
 - [FCN](https://github.com/hassony2/inria/wiki/detection-papers)
 
 
 
-##### **Common Metrics**
+## **Common Metrics**
 
 - [IoU](https://github.com/hassony2/inria/wiki/detection-papers)
 
 
 
-##### **Common Problems**
+## **Common Problems**
 
 - [RNN vanishing gradient](https://github.com/hassony2/inria/wiki/detection-papers)
 
