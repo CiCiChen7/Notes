@@ -9,7 +9,7 @@
 
 ## **Common Network Components**
 
-- [ConvGRU](https://github.com/hassony2/inria/wiki/detection-papers)
+- [ConvGRU](https://github.com/CuijingChen/Paper_Notes/blob/master/Network%20Component/ConvGRU/README.md)
 - [FCN](https://github.com/hassony2/inria/wiki/detection-papers)
 
 
