@@ -22,7 +22,7 @@
 
 ## **Problems**
 
-- [RNN vanishing gradient](https://github.com/hassony2/inria/wiki/detection-papers)
+- [RNN vanishing gradient](https://github.com/CuijingChen/Notes/blob/master/Problems/RNN%20vanishing%20gradient.md)
 
 
 
