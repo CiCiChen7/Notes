@@ -14,13 +14,13 @@
 
 
 
-## **Common Metrics**
+## **Metrics**
 
-- [IoU](https://github.com/hassony2/inria/wiki/detection-papers)
+- [IoU](https://github.com/CuijingChen/Notes/tree/master/Metrics/IoU)
 
 
 
-## **Common Problems**
+## **Problems**
 
 - [RNN vanishing gradient](https://github.com/hassony2/inria/wiki/detection-papers)
 
