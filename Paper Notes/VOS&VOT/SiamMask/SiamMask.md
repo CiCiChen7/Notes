@@ -1,13 +1,14 @@
-## Conditional Generative Adversarial Nets
+## SiamMask
 
 ### Abstract
 
 ------
 
-Problem: VOT + semi VOS
+Problem: VOT + semi VOS, single object
 Proposed Method: 
 
 SiamMask. 
+
 Result: 
 
 
