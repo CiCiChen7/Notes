@@ -18,4 +18,4 @@
 
 ![lstm](./res/lstm.png)
 
-4. ##### Vanilla RNN gradient flow![lstm](./res/vanilla rnn.png)
+4. ##### Vanilla RNN gradient flow![lstm](./res/vanilla%20rnn.png)

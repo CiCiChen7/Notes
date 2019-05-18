@@ -5,7 +5,6 @@
 ------
 
 Problem
-Proposed Method
 Result
 
 
