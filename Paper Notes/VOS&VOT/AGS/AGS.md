@@ -1,11 +1,4 @@
-## Conditional Generative Adversarial Nets
-
-### Abstract
-
-------
-
-Problem
-Result
+## **(AGS) Learning Unsupervised Video Object Segmentation through Visual Attention**
 
 
 ### Approach
