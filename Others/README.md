@@ -9,4 +9,5 @@
 
 #### Problems
 
-1. RNN vanishing gradient  [`note`]([https://github.com/jjjjchen/Notes/tree/master/Others/RNN%20vanishing%20gradient](https://github.com/jjjjchen/Notes/tree/master/Others/RNN vanishing gradient))
+1. RNN vanishing gradient  [`note`](https://github.com/jjjjchen/Notes/tree/master/Others/RNN vanishing gradient)
+
