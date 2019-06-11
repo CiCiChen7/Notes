@@ -1,8 +1,8 @@
-## **Paper Notes** ([https://github.com/jjjjchen/Notes/tree/master/Paper%20Notes](https://github.com/jjjjchen/Notes/tree/master/Paper Notes))
+## **Paper Notes** ([https://github.com/jjjjchen/Notes/tree/master/Paper Notes](https://github.com/jjjjchen/Notes/tree/master/Paper%20Notes))
 
 
 
-## **Other Notes **(<https://github.com/jjjjchen/Notes/tree/master/Others>)
+## **Other Notes **([https://github.com/jjjjchen/Notes/tree/master/Other Notes](https://github.com/jjjjchen/Notes/tree/master/Other%20Notes))
 
 
 
