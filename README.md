@@ -2,7 +2,9 @@
 
 
 
-## **Other Notes **([https://github.com/jjjjchen/Notes/tree/master/Other Notes](https://github.com/jjjjchen/Notes/tree/master/Other%20Notes))
+
+
+## **Other Notes**([https://github.com/jjjjchen/Notes/tree/master/Other Notes](https://github.com/jjjjchen/Notes/tree/master/Other%20Notes))
 
 
 
