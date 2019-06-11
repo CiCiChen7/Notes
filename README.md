@@ -4,7 +4,7 @@
 
 
 
-# **[`Other Notes`](https://github.com/jjjjchen/Notes/tree/master/Other Notes)**
+# **[`Other Notes`](https://github.com/jjjjchen/Notes/tree/master/Other%20Notes)**
 
 
 
