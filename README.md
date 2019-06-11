@@ -1,13 +1,8 @@
-## **Paper Notes**
-
-- [VOS / VOT](https://github.com/CuijingChen/Paper_Notes/tree/master/Paper%20Notes/VOS%26VOT)
-- [other papers]() 
+## **Paper Notes** ([https://github.com/jjjjchen/Notes/tree/master/Paper%20Notes](https://github.com/jjjjchen/Notes/tree/master/Paper Notes))
 
 
 
-## **Others**
-
-- [Others](<https://github.com/jjjjchen/Notes/tree/master/Others>) 
+## **Other Notes **(<https://github.com/jjjjchen/Notes/tree/master/Others>)
 
 
 
