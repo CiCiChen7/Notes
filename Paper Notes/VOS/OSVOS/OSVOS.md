@@ -22,7 +22,7 @@ Result: J mean 79.8%
 
 we adapt a CNN(VGG) pre-trained on image recognition to video object segmentation. This is achieved by training it on a set of videos with manually segmented objects (achieve foreground segmentation). Finally, it is fine-tuned at test time on a specific object that is manually segmented in a single frame.
 
-##### **1. foreground FCN**
+### **1. foreground FCN**
 
 The VGG architecture consists of groups of convolutional plus Rectified Linear Units (ReLU) layers grouped into 5 stages. Between the stages, pooling operations downscale the feature maps as we go deeper into the network. The fully-connected layers needed for classification are removed.
 
@@ -40,7 +40,7 @@ then train the network on the binary masks of the training set of DAVIS, to lear
 
 
 
-##### **2. Training Details**
+### **2. Training Details**
 
 **Offline training: **
 
