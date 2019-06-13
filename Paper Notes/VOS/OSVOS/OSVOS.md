@@ -36,7 +36,7 @@ The VGG architecture consists of groups of convolutional plus Rectified Linear U
 
 then train the network on the binary masks of the training set of DAVIS, to learn a generic no- tion of how to segment objects from their background, their usual shapes, etc.
 
-![foregrounf fcn binary loss](./res/foregrounf fcn binary loss.png)
+![foregrounf fcn binary loss](./res/foreground_fcn_binary_loss.png)
 
 
 
