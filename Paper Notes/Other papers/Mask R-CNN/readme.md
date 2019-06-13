@@ -20,3 +20,5 @@ General steps the approach follows:
 3. **Region of Interest Classification and Bounding Box:** In this step the algorithm takes the regions of interest proposed by the RPN as inputs and outputs a classification (softmax) and a bounding box (regressor).
 
 4. **Segmentation Masks**: In the final step, the positive ROI regions are taken in as inputs and 28x28 pixel masks with float values are generated as outputs for the objects. During inference, these masks are scaled up.
+
+![maskrcnn1](/Users/cuijingchen/Documents/Notes/Paper Notes/Other papers/Mask R-CNN/res/maskrcnn1.jpeg)
