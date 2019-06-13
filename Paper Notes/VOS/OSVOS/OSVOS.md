@@ -22,7 +22,7 @@ Result: J mean 79.8%
 
 we adapt a CNN(VGG) pre-trained on image recognition to video object segmentation. This is achieved by training it on a set of videos with manually segmented objects (achieve foreground segmentation). Finally, it is fine-tuned at test time on a specific object that is manually segmented in a single frame.
 
-**1. foreground FCN**
+##### **1. foreground FCN**
 
 The VGG architecture consists of groups of convolutional plus Rectified Linear Units (ReLU) layers grouped into 5 stages. Between the stages, pooling operations downscale the feature maps as we go deeper into the network. The fully-connected layers needed for classification are removed.
 
@@ -40,9 +40,9 @@ then train the network on the binary masks of the training set of DAVIS, to lear
 
 
 
-**2. Training Details**
+##### **2. Training Details**
 
-Offline training: 
+**Offline training: **
 
 The base CNN of our architecture is pre-trained on ImageNet for image labeling. Without further training, the network is not capable of performing segmentation, as illustrated in Figure 2 (1). We refer to this network as the “base network.” 
 
@@ -50,12 +50,16 @@ We therefore further train the network on the binary masks of the training set o
 
 ![osvos](./res/osvos.png)
 
-Online training/testing: With the parent network available, we can proceed to our main task. Segmenting a particular entity in a video, given the image and the segmentation of the first frame. We proceed by further training (fine-tuning) the parent network for the particular image/ground-truth pair, and then testing on the entire sequence, using the new weights. 
+**Online training/testing: **
 
-**Contour snapping**
+With the parent network available, we can proceed to our main task. Segmenting a particular entity in a video, given the image and the segmentation of the first frame. We proceed by further training (fine-tuning) the parent network for the particular image/ground-truth pair, and then testing on the entire sequence, using the new weights. 
+
+**Contour snapping** (Contour Branch)
 
 ![contour](./res/contour.png)
 
 we propose a complementary CNN in a second branch, that is trained to detect object contours. The proposed architecture is presented in Figure 4: (1) shows the main foreground branch, where the foreground pixels are estimated; (2) shows the contour branch, which detects all contours in the scene (not only those of the foreground object). 
 
-We used the ex- act same architecture in the two branches, but training for different losses.  we kept the computations for the two ob- jectives uncorrelated. This
+We used the exact same architecture in the two branches, but training for different losses.  we kept the computations for the two objectives uncorrelated. we train on the PASCAL-Context [31] database, which provides contour annotations for the full scene of an image.
+
+Finally, in the boundary snapping step (Figure 4 (3), we compute superpixels that align to the computed contours by means of an Ultrametric Contour Map (UCM), which we threshold at a low value. We then take a foreground mask (1) and we select superpixels via majority voting (those that overlap with the foreground mask over 50%) to form the final foreground segmentation.
