@@ -9,7 +9,7 @@ Network Architecture
 
 ![model](./res/model.png)
 
-![model description](./res/model description.png)
+![model description](./res/model_description.png)
 
 ​                  world.
 
