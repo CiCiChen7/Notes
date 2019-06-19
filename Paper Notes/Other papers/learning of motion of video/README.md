@@ -7,9 +7,9 @@
 
 Network Architecture
 
-![model](/Users/cuijingchen/Documents/Notes/Paper Notes/Other papers/learning of motion of video/res/model.png)
+![model](./res/model.png)
 
-![model description](/Users/cuijingchen/Documents/Notes/Paper Notes/Other papers/learning of motion of video/res/model description.png)
+![model description](./res/model description.png)
 
 ​                  world.
 
@@ -21,7 +21,7 @@ each pixel in depth map corresponds to a 3D coordinate. See 3.1 in paper for det
 
 We depth-concatenate the pair of frames and use a series of convolutional layers to produce an embedding layer. We use two fully-connected layers to predict the motion of the camera between the frames and a predefined number K of rigid body motions that explain moving objects in the scene.
 
-![camera](/Users/cuijingchen/Documents/Notes/Paper Notes/Other papers/learning of motion of video/res/camera.png)
+![camera](./res/camera.png)
 
 ### 3. Object Masks Motion
 
@@ -31,18 +31,10 @@ Difference: While camera motion is a global transformation applied to all the pi
 
 ### 4. Optical flow
 
-![optical flow](/Users/cuijingchen/Documents/Notes/Paper Notes/Other papers/learning of motion of video/res/optical flow.png)
+![optical flow](./res/optical flow.png)
 
 
 
-Component loss function
 
 
 
-### Results
-
-------
-
-Graphs + analysis
-
-to improve: ...
