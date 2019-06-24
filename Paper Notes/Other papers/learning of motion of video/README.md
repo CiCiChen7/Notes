@@ -33,8 +33,22 @@ Difference: While camera motion is a global transformation applied to all the pi
 
 ![optical flow](./res/optical flow.png)
 
+### 5. Loss function
 
+#### 1. self supervision 
 
+![self-supervision](./res/self-supervision.png)
 
+##### a. Smoothies penalty (L1 regularization) on : depth map, object masks, optical flow map
+
+##### b. Forward-backward consistency constraints.
+
+![for-back](./res/for-back.png)
+
+but not empirical gains for doing so.
+
+##### c. Supervising depth. Supervising camera motion. Supervising optical flow and object motion. See paper for detailed loss functions.
+
+#### 2. 
 
 
