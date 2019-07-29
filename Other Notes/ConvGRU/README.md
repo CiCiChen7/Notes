@@ -1,5 +1,9 @@
 ## ConvGRU
 
+
+
+A very good animation of RNN, LSTM, GRU:https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45
+
 ##### 1. ConvGRU
 
 ### ![ConvGRU](./res/ConvGRU.png)

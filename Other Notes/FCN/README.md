@@ -8,6 +8,8 @@
 
 *****
 
+Fully **convolutional** indicates that the neural network is composed of convolutional layers without any fully-**connected** layers or MLP usually found at the end of the network.
+
 1. #### Why called fully convolutional network?
 
 In classification, conventionally, an input image is downsized and goes through the convolution layers and fully connected (FC) layers, and output one predicted label for the input image, as follows:
